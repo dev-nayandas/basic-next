@@ -1,0 +1,17 @@
+node_modules/: This folder contains all the dependencies installed for our project using npm.
+
+public/: The public directory is used to store static assets like images, fonts, and favicon. Files placed here can be referenced directly from the HTML or other components.
+
+src/: This is where most of your project's code will go. It contains subdirectories for different types of code:
+
+components/: This folder can hold React components that are shared across different pages or sections of your app.
+
+pages/: Next.js uses the pages directory to define routes for your application. Each JavaScript file in this directory becomes a route. For example, index.js corresponds to the root URL ("/"), and about.js would correspond to "/about".
+
+styles/: This directory is used to store your CSS styles. globals.css can be used for global styles, and .module.css files are used for local CSS modules.
+
+.gitignore: A file that lists files and directories to be ignored by version control (Git). This prevents unnecessary files from being committed to your repository, such as the node_modules folder and build artifacts.
+
+package.json: This file contains metadata about your project and its dependencies. We can also define scripts to run various commands.
+
+README.md: A markdown file that typically provides an introduction to your project, instructions for installation, and other important information.
